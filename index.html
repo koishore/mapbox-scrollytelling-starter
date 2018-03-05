@@ -6,6 +6,11 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -44,252 +49,156 @@ section:last-child {
 
 <div id='map'></div>
 <div id='features'>
-      <section id='arma_konda' class='active'>
-          <h3>Alma Konda - 1680 m</h3>
-          <p><b>Region - </b>Eastern Ghats</p>
-          <p><b>State - </b>Andhra Pradesh</p>
-          <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+      <section id='intro' class='active'>
+        <h2 style="font-family:bebas neue;">Ain't No Mountain High Enough</h2>
+        <h5 style="font-family:montserrat;">10 peaks in India that every budding/ amateur trekker should aspire to climb</h5>
+        <div class = 'row'>
+          <div class = 'col s6'>
+            <img class = 'responsive-img' src = 'img/char.png'>
+          </div>
+          <div class = 'col s6'>
+            <div class="speech-bubble">
+              <div class='container center'>
+                <h7 class = 'center white-text'>Hi, I'm Uncle Joko, and I'm a compulsive trekker.<br>Quite often when one is brought up in North India, driving your vehicle towards hilly terrains is not uncommon. This habitual practise for an escape from the city gradually develops into a long lasting relationship with the mighty hills through a process known as trekking. It’s referred to as an addiction in the professional mountaineering community. Spending thousands of dollars just to climb? Here, I present to you some of those mighty peaks that every amateur trekker in India should dream about climbing.</h7>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section id='namcha_barwa'>
-          <h3>Namcha Barwa - 7782 m</h3>
-          <p><b>Region - </b>Eastern Himalaya</p>
-          <p><b>State - </b>Arunachal Pradesh</p>
-          <p>Namcha Barwa is in an isolated part of southeastern Tibet rarely visited by outsiders. It stands inside the Great Bend of the Yarlung Tsangpo River as the river enters its notable gorge across the Himalaya, emerging as the Siang and becoming the Brahmaputra. Namcha Barwa's sister peak Gyala Peri 7,294 metres rises across the gorge 22 km to the NNW.</p>
+      <section id='k2'>
+          <h4 style="font-family:montserrat;">K2 - 8611 m</h4><img class='center responsive-img' src='img/k2.jpg'>
+          <p style="text-align:justify">In Himalayan mountaineering, there are three major categories of “firsts”: the first ascent, the first ascent without supplemental oxygen, and the first ascent in winter, when conditions are at their worst. All of the world’s 14 mountains with peaks that stretch more than 8,000 meters above sea level have been climbed with and without supplemental oxygen. All have been summited in winter, too—except for one that is, K2.</p>
+      </section>
+      <section id='kangchenjunga'>
+          <h4 style="font-family:montserrat;">Kangchenjunga - 8586 m</h4><img class='center responsive-img' src='img/kanchenjungha.jpg'>
+          <p style="text-align:justify">Access to climbing the peak is given by the Chogyal, the monarch of Sikkim. The first climb stopped 10m short of the peak in accordance with the promise given to the Chogyal that the top of the mountain would remain inviolate. Every climber or climbing group that has reached the summit has followed this tradition. The rationale is that they want to avoid desecration of the mountain by godless foreigners.</p>
     </section>
-    <section id='laike'>
-        <h3>Unnamed peak near Laike - 1960 m</h3>
-        <p><b>Region - </b>Dima Hasao District</p>
-        <p><b>State - </b>Assam</p>
-        <p>This is the highest peak in Assam located in the Assam hills, which falls under the Dima Hasao District.</p>
+    <section id='nanda_devi'>
+        <h4 style="font-family:montserrat;">Nanda Devi - 7816 m</h4><img class='center responsive-img' src='img/nanda.jpg'>
+        <p style="text-align:justify">The controversial peak is known as 20th century’s greatest mountaineering-cum-espionage operation done jointly by the CIA and the IB(Intelligence Bureau) to install a plutonium surveillance device to keep track of China’s growing nuclear power in the province of Xinjiang. The question about the 7 lost plutonium rods still haunt the ones who lost it with questions like -  several of the sherpas who carried plutonium up the mountain died of cancer caused by radiation and the plutonium capsules will remain hot and melt the snow. It is a mystery whether it formed a cavity or travelled to the bottom of the glacier or got stuck somewhere in between. </p>
     </section>
-    <section id='someshwar'>
-        <h3>Fort Someshwar - 880 m</h3>
-        <p><b>Region - </b>Sivalik Hills</p>
-        <p><b>State - </b>Bihar</p>
-        <p>Fort Someshwar is the highest peak in Bihar, India. It is situated in the district of West Champaran. It has an elevation of 880 metres (2,890 ft). The fort itself is a ruin.</p>
+    <section id='namcha_barwa'>
+        <h4 style="font-family:montserrat;">Namcha Barwa - 7782 m</h4><img class='center responsive-img' src='img/namcha.jpg'>
+        <p style="text-align:justify">After 7,795 metres high Batura Sar in the Karakoram was climbed in 1976, Namcha Barwa became the highest unclimbed independent mountain in the world, until it was finally climbed in 1992. In addition to being one of the highest mountains in the world, Namcha Barwa is also the third most prominent peak in the Himalayas after Mount Everest and Nanga Parbat.</p>
   </section>
-  <section id='gaurlata'>
-      <h3>Unnamed peak near Gaurlata - 1276 m</h3>
-      <p><b>Region - </b>Bailadila Range</p>
-      <p><b>State - </b>Chhattisgarh</p>
-      <p>The highest named peak is Gaurlata (1225 m or 4186 ft).</p>
+  <section id='saltoro_kangri'>
+      <h4 style="font-family:montserrat;">Saltoro Kangri - 7742 m</h4><img class='center responsive-img' src='img/saltoro.jpg'>
+      <p style="text-align:justify">It is located on the Actual Ground Position Line between Indian controlled territory in the Siachen region and Pakistani-controlled territory west of the Saltoro Range. Due to danger from military operations due to the ongoing Siachen Conflic, Saltoro Kangri is little visited. Areas just to the west are controlled by Pakistan, to the east by India.</p>
   </section>
-
-  <!--- fis this>
-  <!--->
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+  <section id='reo_purgyil'>
+      <h4 style="font-family:montserrat;">Reo Purgyil - 6816 m</h4><img class='center responsive-img' src='img/reo.jpg'>
+      <p style="text-align:justify">At 6,816 m Reo Purgyil is the highest mountain peak in the state of Himachal Pradesh. Geologically the peak is a dome structure and is part of a great massif that rises above the Satluj River (Sutlej) and overlooks the western valley of Tibet. The Spiti River, a right hand tributary of the Satluj, drains the northern face of the massif.</p>
   </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+  <section id='mt_saramati'>
+      <h4 style="font-family:montserrat;">Mount Saramati - 3841 m</h4><img class='center responsive-img' src='img/saramati.jpg'>
+      <p style="text-align:justify">Mount Saramati is a peak rising above the surrounding peaks at the mountainous border of Nagaland state, India and the Sagaing Region, Burma, rewarding one with views over Burma/Myanmar and India from its summit.</p>
   </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+  <section id='sandakphu'>
+      <h4 style="font-family:montserrat;">Sandakphu - 3636 m</h4><img class='center responsive-img' src='img/sandakphu.jpg'>
+      <p style="text-align:justify">The name Sandakphu means ‘Height of the Poison Plant’, a direct reference to the profusion of the poisonous aconite plants that grow near the peak. Four of the five highest peaks in the world, Everest, Kangchenjunga, Lhotse and Makalu can be seen from its summit. It also affords a pristine view of the entire Kanchenjunga Range.</p>
   </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+  <section id='mt_iso'>
+      <h4 style="font-family:montserrat;">Mount Iso - 2994 m</h4><img class='center responsive-img' src='img/iso.jpg'>
+      <p style="text-align:justify">Mount Iso (2,994 mts.) the highest peak in Manipur lies in the north-western part of Mao. Dzuko valley, situated at the foot of this mountain, is famous for its wide range of flowers in every season. But the most famous one is the Dzükou lily.</p>
   </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+  <section id='anamudi'>
+      <h4 style="font-family:montserrat;">Anamudi - 2695 m</h4><img class='center responsive-img' src='img/anamudi.jpg'>
+      <p style="text-align:justify">Anamudi means “Elephant’s forehead”,  a reference to the resemblance of the mountain to an elephant's head. It is also the peak with the greatest topographic isolation within India. It is the highest point in India south of Himalayas. Thus, it is known as "Everest of South India".</p>
   </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
+  <section id='end'>
+    <img class = 'responsive-img' src = 'img/end.svg'>
+    <br><br><br><br>
   </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-  <section id='<we need to change this>'>
-      <h3>Alma Konda - 1680 m</h3>
-      <p><b>Region - </b>Eastern Ghats</p>
-      <p><b>State - </b>Andhra Pradesh</p>
-      <p>Arma Konda, Arama Konda or Sitamma Konda, is a mountain peak in the northern part of the Eastern Ghats and located in Godavari river basin. It is located in the Madugula Konda sub range north of Paderu village in Andhra Pradesh, India.</p>
-  </section>
-    <section id='charing-cross'>
-        <h3>Charing Cross Hotel</h3>
-        <p>Walter writes to Oberstein and convinces him to meet in the smoking room of the Charing Cross Hotel where he promises additional plans for the submarine in exchange for money. The plan works and Holmes and Watson catch both criminals.</p>
-        <small id="citation">
-            Adapted from <a href='http://www.gutenberg.org/files/2346/2346-h/2346-h.htm'>Project Gutenberg</a>
-        </small>
-    </section>
 </div>
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoia29pc2hvcmUiLCJhIjoiY2pkeWl5OHlmNTNrcTJ4cWg0cXM1M201NSJ9.jtDDuRLyQtUIaWlF4-qR0Q';
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/koishore/cjdzw9tjj4v142rnwo9e6lt82',
-    center: [82.723,18.228],
-    zoom: 15.5,
-    bearing: 27,
-    pitch: 45
+    style: 'mapbox://styles/koishore/cjee69jrahhvb2sqk7yg57fji',
+    center: [78.9629,20.5937],
+    zoom: 3.04,
+    bearing: 0,
+    pitch: 20
 });
 
 var chapters = {
-    'arma_konda': {
+    'intro': {
+        bearing: 0,
+        center: [78.9629,20.5937],
+        zoom: 3.04,
+        pitch: 20
+    },
+    'k2': {
+        duration: 6000,
         bearing: 27,
-        center: [82.723,18.228],
+        center: [76.513,35.88],
         zoom: 15.5,
         pitch: 20
     },
-    'namcha_barwa': {
+    'kangchenjunga': {
         duration: 6000,
-        center: [95.0542,29.6325],
+        center: [88.148,27.703],
         bearing: 150,
         zoom: 15,
         pitch: 0
     },
-    'laike': {
+    'nanda_devi': {
         bearing: 90,
-        center: [93.4529,25.32135],
+        center: [79.97,30.376],
         zoom: 13,
         speed: 0.6,
         pitch: 40
     },
-    'someshwar': {
+    'namcha_barwa': {
         bearing: 90,
-        center: [84.3055,27.3876],
+        center: [95.0542,29.6325],
         zoom: 12.3
     },
-    'gaurlata': {
+    'saltoro_kangri': {
         bearing: 45,
-        center: [-0.18335806, 51.49439521],
+        center: [76.849,35.399],
         zoom: 15.3,
         pitch: 20,
         speed: 0.5
     },
-    'caulfield-gardens': {
+
+    'reo_purgyil': {
         bearing: 180,
-        center: [-0.19684993, 51.5033856],
+        center: [78.735,31.884],
         zoom: 12.3
     },
-    'telegraph': {
+    'mt_saramati': {
         bearing: 90,
-        center: [-0.10669358, 51.51433123],
+        center: [95.033,25.742],
         zoom: 17.3,
         pitch: 40
     },
-    'charing-cross': {
+    'sandakphu': {
+        bearing: 27,
+        center: [88.002,27.106],
+        zoom: 15.5,
+        pitch: 20
+    },
+    'mt_iso': {
+        duration: 6000,
+        center: [94.085,25.531],
+        bearing: 150,
+        zoom: 15,
+        pitch: 0
+    },
+    'anamudi': {
         bearing: 90,
-        center: [-0.12416858, 51.50779757],
+        center: [77.061,10.17],
         zoom: 14.3,
         pitch: 20
+    },
+    'end': {
+        bearing: 0,
+        center: [78.9629,20.5937],
+        zoom: 3.04,
+        pitch: 0
     }
 };
 
@@ -305,7 +214,7 @@ window.onscroll = function() {
     }
 };
 
-var activeChapterName = 'arma_konda';
+var activeChapterName = 'intro';
 function setActiveChapter(chapterName) {
     if (chapterName === activeChapterName) return;
 

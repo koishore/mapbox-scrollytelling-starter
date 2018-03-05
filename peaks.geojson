@@ -1,0 +1,175 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 76.513,35.88 ]
+       },
+       "properties": {
+       "state":"Jammu and Kashmir (Claimed)",
+       "peak":"K2",
+       "region":"Karakoram Range",
+       "height":"8611 m",
+       "height_m":8611,
+       "sqrt_height":92.8,
+       "height_ft":"28,251 ft",
+       "Source":"K2 lies in Pakistan Administered Kashmir, which is claimed by India as part of Jammu and Kashmir."
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 88.148,27.703 ]
+       },
+       "properties": {
+       "state":"Sikkim",
+       "peak":"Kangchenjunga",
+       "region":"Eastern Himalaya",
+       "height":"8586 m",
+       "height_m":8586,
+       "sqrt_height":92.66,
+       "height_ft":"28,169 ft",
+       "Source":"Kangchenjunga lies on the Sikkim-Nepal border."
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 79.97,30.376 ]
+       },
+       "properties": {
+       "state":"Uttarakhand",
+       "peak":"Nanda Devi",
+       "region":"Garhwal Himalayasection of the Western Himalayas",
+       "height":"7816 m",
+       "height_m":7816,
+       "sqrt_height":88.41,
+       "height_ft":"25,646 ft",
+       "Source":""
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 95.0542,29.6325 ]
+       },
+       "properties": {
+       "state":"Arunachal Pradesh",
+       "peak":"Namcha Barwa",
+       "region":"Eastern Himalaya",
+       "height":"7782 m",
+       "height_m":7782,
+       "sqrt_height":88.22,
+       "height_ft":"25,531 ft",
+       "Source":""
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 76.849,35.399 ]
+       },
+       "properties": {
+       "state":"Jammu and Kashmir (Administered)",
+       "peak":"Saltoro Kangri",
+       "region":"Karakoram Range",
+       "height":"7742 m",
+       "height_m":7742,
+       "sqrt_height":87.99,
+       "height_ft":"25,400 ft",
+       "Source":"Saltoro Kangri lies along the AGPL in the Siachen area."
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 78.735,31.884 ]
+       },
+       "properties": {
+       "state":"Himachal Pradesh",
+       "peak":"Reo Purgyil",
+       "region":"Zanskar range section of the Western Himalayas",
+       "height":"6816 m",
+       "height_m":6816,
+       "sqrt_height":82.56,
+       "height_ft":"22,363 ft",
+       "Source":"Reo Purgyil lies on the Himachal Pradesh-Tibet border."
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 95.033,25.742 ]
+       },
+       "properties": {
+       "state":"Nagaland",
+       "peak":"Mount Saramati",
+       "region":"Naga Hills",
+       "height":"3841 m",
+       "height_m":3841,
+       "sqrt_height":61.98,
+       "height_ft":"12,602 ft",
+       "Source":"Mount Saramati lies on the Nagaland-Myanmar border."
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 88.002,27.106 ]
+       },
+       "properties": {
+       "state":"West Bengal",
+       "peak":"Sandakphu",
+       "region":"Eastern Himalayas",
+       "height":"3636 m",
+       "height_m":3636,
+       "sqrt_height":60.3,
+       "height_ft":"11,929 ft",
+       "Source":"Sandakphu lies on the West Bengal-Nepal border."
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 94.085,25.531 ]
+       },
+       "properties": {
+       "state":"Manipur",
+       "peak":"Mount Iso",
+       "region":"Purvanchal Range",
+       "height":"2994 m",
+       "height_m":2994,
+       "sqrt_height":54.72,
+       "height_ft":"9,823 ft",
+       "Source":"Also known as Tenipu"
+       }
+     },
+     {
+       "type": "Feature",
+       "geometry": {
+          "type": "Point",
+          "coordinates":  [ 77.061,10.17 ]
+       },
+       "properties": {
+       "state":"Kerala",
+       "peak":"Anamudi",
+       "region":"Anamalai Hills section of the Western Ghats",
+       "height":"2695 m",
+       "height_m":2695,
+       "sqrt_height":51.91,
+       "height_ft":"8,842 ft",
+       "Source":"It is highest peak in the Western Ghats and highest peak in India outside Himalayas."
+       }
+     }
+]
+}
